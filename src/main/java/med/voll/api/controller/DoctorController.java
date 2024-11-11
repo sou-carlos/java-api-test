@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/doctor")
 public class DoctorController {
 
+    //injeção de dependência
     @Autowired
     private DoctorRepository doctorRepository;
 

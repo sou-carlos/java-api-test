@@ -27,6 +27,7 @@ public class Doctor {
     @Embedded
     private Address address;
 
+    //construtor
     public Doctor(RegisterDoctorDTO doctorData) {
         this.name = doctorData.name();
         this.email = doctorData.email();
